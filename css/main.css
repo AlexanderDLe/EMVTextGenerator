@@ -38,7 +38,8 @@ header {
   width: 25%; }
 
 .main-content {
-  margin-top: 50px; }
+  margin: 0 auto;
+  padding: 50px; }
   .main-content h3 {
     margin-top: 25px;
     font-size: 1.5em; }

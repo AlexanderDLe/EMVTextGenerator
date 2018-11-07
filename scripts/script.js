@@ -25,8 +25,16 @@ function generateMuscleText() {
 
   console.log(bodyText);
 }
+
 function generateTestoText() {
-  console.log(foo);
+  let headText = testoHeadText[randomNum(testoHeadText.length)];
+  // let bodyText = muscleBodyText[randomNum(muscleBodyText.length)];
+  // let ctaText = muscleCTAText[randomNum(muscleCTAText.length)];
+
+  genHead.innerHTML = `<h3>Generated Head</h3>
+    <p>${headText}</p>`;
+  genBody.innerHTML = ``;
+  genCTA.innerHTML = ``;
 }
 
 // Below is the text content for generated content. Keep things clean and separated! All variables will still be valid due to hoisting.
